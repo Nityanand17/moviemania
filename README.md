@@ -46,7 +46,7 @@ git clone https://github.com/Nityanand17/moviemania.git
 2. Install the dependencies:
 
 ```
-cd cinextma
+cd moviemania
 npm install
 ```
 
