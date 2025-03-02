@@ -52,23 +52,23 @@ const Disclaimer: React.FC = () => {
         <ModalBody>
           <ScrollShadow hideScrollBar className="space-y-4">
             <p>
-              Welcome to Cinextma - a free and open-source movie streaming website. Please read this
+              Welcome to MovieMania - a free and open-source movie streaming website. Please read this
               disclaimer carefully before using this website.
             </p>
             <p>
-              Cinextma is developed solely for <strong>educational and learning purposes.</strong>{" "}
+              MovieMania is developed solely for <strong>educational and learning purposes.</strong>{" "}
               This website is an open-source project intended to demonstrate web development skills
               and is not meant to promote or encourage digital piracy in any form.
             </p>
             <p>
-              All content displayed on Cinextma (including but not limited to movies, images,
+              All content displayed on MovieMania (including but not limited to movies, images,
               posters, and related information) is sourced from{" "}
               <strong>third-party providers through APIs or embedding.</strong> I do not host,
               store, or distribute any media files on my servers. The website merely aggregates
               content that is already available on the internet.
             </p>
             <p>
-              By using Cinextma, you acknowledge that I bears no responsibility for user actions,
+              By using MovieMania, you acknowledge that I bears no responsibility for user actions,
               content accuracy, or any direct or indirect damages arising from the use of this
               website. Users are solely responsible for their actions while using this service. I
               respect intellectual property rights and will respond to legitimate requests from
@@ -77,7 +77,7 @@ const Disclaimer: React.FC = () => {
             <p>
               This website should only be used for learning purposes. Any illegal activities,
               including but not limited to unauthorized downloading, redistribution of content, or
-              commercial use, are strictly prohibited. By using Cinextma, you agree to these terms
+              commercial use, are strictly prohibited. By using MovieMania, you agree to these terms
               and acknowledge that <strong>you use the service at your own risk.</strong>
             </p>
           </ScrollShadow>
