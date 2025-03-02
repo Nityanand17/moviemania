@@ -56,5 +56,5 @@ npm install
 npm run dev
 ```
 
-4. Open your browser and visit `http://localhost:3000` to access the CINEXTMA application.
+4. Open your browser and visit `http://localhost:3000` to access the MOVIEMANIA application.
 
