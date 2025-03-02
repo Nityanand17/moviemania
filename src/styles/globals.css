@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1 {
+    @apply text-3xl font-black md:text-4xl;
+  }
+  h2 {
+    @apply text-2xl font-bold md:text-3xl;
+  }
+  h3 {
+    @apply text-xl font-bold md:text-2xl;
+  }
+  h4 {
+    @apply text-lg font-semibold md:text-xl;
+  }
+  h5 {
+    @apply text-base font-medium md:text-lg;
+  }
+  h6 {
+    @apply text-sm font-normal md:text-base;
+  }
+  iframe {
+    @apply border-none;
+  }
+}
+
+
+
+/* Thin Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(26, 25, 25, 0.6); /* Red glass effect */
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(19, 19, 19, 0.8);
+}
+
+
+@layer components {
+  .embla {
+    @apply overflow-hidden;
+  }
+  .embla__container {
+    @apply flex cursor-grab active:cursor-grabbing;
+  }
+  .embla__slide {
+    @apply min-w-0 flex-[0_0_100%];
+  }
+  .toast__container {
+    @apply m-0 gap-2 rounded-xl border-0 bg-secondary-background px-5 py-3 text-foreground shadow-xl light:light dark:dark;
+  }
+  .toast__title {
+    @apply flex items-center gap-2 text-sm font-semibold md:text-base;
+  }
+  .toast__description {
+    @apply text-xs;
+  }
+}
+
+@layer utilities {
+  .absolute-center {
+    @apply absolute left-1/2 top-1/2 float-none -translate-x-1/2 -translate-y-1/2 !important;
+  }
+  .movie-grid {
+    @apply grid size-full max-w-6xl grid-cols-2 justify-center gap-2 sm:grid-cols-3 md:gap-4 lg:grid-cols-[repeat(auto-fit,minmax(200px,50px))];
+  }
+}
